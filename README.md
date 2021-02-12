@@ -1,7 +1,7 @@
 # ipawk
 Some function for awk(gawk) to work with ip, net, subnet in shell/bash
-
 make sure you using gawk|nawk (not mawk)
+
 mawk
 ### awk -W version
 
