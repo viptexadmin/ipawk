@@ -27,12 +27,20 @@ lastip - last ip of subnet (exactly ip not host)
 
 **function maskfromfull(fullip)** extract mask from fullip
 
-function firstiplong(fullip)
-function lastiplong(fullip)
-function long2ip(num)
-function firstip(fullip)
-function lastip(fullip)
-function getsubnet(fullip)
-function ip2full(fullip)
-function entryip(fullip1,fullip2)
+**function firstiplong(fullip)** convert first ip of subnet to long
+
+**function lastiplong(fullip)** convert last ip of subnet to long
+
+**function long2ip(num)** convert long to ip
+
+**function firstip(fullip)** get first ip of subnet
+
+**function lastip(fullip)**  get last ip of subnet
+
+**function getsubnet(fullip)** get true subnet address presentation
+
+**function ip2full(fullip)** get ip with mask
+
+**function entryip(fullip1,fullip2)** returns a character indicating that one ip or subnet is entanced in other subnet
+
   
