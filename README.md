@@ -8,7 +8,9 @@ mawk
 gawk | nawk
 ### awk -V
 
-include ipawk function in your code
-```CUR_IP="192.168.1.1/24"
-awk **-i ./ipawk.awk** -v ip="$CUR_IP" '{print ip, entryip(ip,$1), $1 }' ./3.txt```
+include ipawk.awk function in your code
+```
+CUR_IP="192.168.1.1/24"
+awk -i ./ipawk.awk -v ip="$CUR_IP" '{print ip, entryip(ip,$1), $1 }' ./3.txt
+```
 
