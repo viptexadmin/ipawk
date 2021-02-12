@@ -22,9 +22,9 @@ awk -i ./ipawk.awk -v ip="$CUR_IP" '{print ip, entryip(ip,$1), $1 }' ./3.txt
 
 **mask** - numerical mask 0-32
 
-**firstip** -first ip of subnet (exactly ip not host)
+**firstip** - first ip of subnet (exactly ip, not host)
 
-**lastip** - last ip of subnet (exactly ip not host)
+**lastip** - last ip of subnet (exactly ip, not host)
 
 
 ### CONTENT:
